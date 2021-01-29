@@ -1,5 +1,7 @@
 package java_chobo.ch06;
 
+import java_chobo.ch06.dto.Tv;
+
 public class Ex6_1 {
 
 	public static void main(String[] args) {

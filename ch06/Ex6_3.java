@@ -2,6 +2,8 @@ package java_chobo.ch06;
 
 import java.util.Arrays;
 
+import java_chobo.ch06.dto.Tv;
+
 public class Ex6_3 {
 
 	public static void main(String[] args) {
