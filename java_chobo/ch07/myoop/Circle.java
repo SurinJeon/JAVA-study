@@ -1,4 +1,4 @@
-package java_chobo.ch07_01;
+package java_chobo.ch07.myoop;
 
 public class Circle extends Shape {
 
