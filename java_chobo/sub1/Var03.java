@@ -1,4 +1,4 @@
-package java_study.sub1;
+package java_chobo.sub1;
 
 public class Var03 {
 	private static final double PI = 3.14;

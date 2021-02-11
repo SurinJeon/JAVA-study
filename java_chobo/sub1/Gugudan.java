@@ -1,4 +1,4 @@
-package java_study.sub1;
+package java_chobo.sub1;
 
 public class Gugudan /*extends Object*/{
 	private int dan;
@@ -8,7 +8,7 @@ public class Gugudan /*extends Object*/{
 	}
 	
 	public void prnGugudan() {
-		System.out.println("±¸±¸´Ü "+ dan + "´Ü ÀÔ´Ï´Ù.");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "+ dan + "ï¿½ï¿½ ï¿½Ô´Ï´ï¿½.");
 		for(int i = 1; i < 10; i++) {
 		System.out.printf("%d * %d = %d%n", dan, i, dan*i);
 		}
