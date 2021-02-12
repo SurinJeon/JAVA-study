@@ -23,6 +23,7 @@ public class ExceptionEx12 {
 		
 	}
 
+	/* 예외를 던저서 throws로 전가시킴*/
 
 	private static void method2() throws Exception {
 		
