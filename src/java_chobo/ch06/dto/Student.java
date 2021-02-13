@@ -7,7 +7,7 @@ public class Student {
 	// Student class는 학생에 관련한 내용이 들어가야함
 	int stdNo;
 	String name;
-	int kor;
+	public int kor;
 	int eng;
 	int math;
 	
@@ -24,6 +24,10 @@ public class Student {
 		this.math = math;
 	} // end of constructor
 	
+	public Student(int stdNo) {
+		this.stdNo = stdNo;
+	}
+
 	// Student class의 member method
 	public int total() {
 		return kor + eng + math;

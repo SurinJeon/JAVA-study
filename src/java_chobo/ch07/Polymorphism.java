@@ -1,4 +1,4 @@
-package java_chobo.ch07.test;
+package java_chobo.ch07;
 
 // 원래는 class마다 파일을 다르게 두는게 맞으나,
 // 학습 상의 목적으로 같은 파일에 함

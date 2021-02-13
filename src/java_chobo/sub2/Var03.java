@@ -1,4 +1,4 @@
-package java_study.sub2;
+package java_chobo.sub2;
 
 public class Var03 {
 
