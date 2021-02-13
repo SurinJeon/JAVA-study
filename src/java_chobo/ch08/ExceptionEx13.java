@@ -18,6 +18,7 @@ public class ExceptionEx13 {
 	private static void method01() {
 
 		method2();
+		method2();
 
 	}
 
