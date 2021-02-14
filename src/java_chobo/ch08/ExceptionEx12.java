@@ -4,21 +4,27 @@ public class ExceptionEx12 {
 
 	public static void main(String[] args) {
 
-		try {
+		/*try { */
 			method1();
-		} catch (Exception e) {
+		/*} catch (Exception e) {
 			e.printStackTrace();
-			System.out.println(e.getMessage());
-		}
+			System.err.println(e.getMessage());
+		}*/
 		
 	}
 
-	private static void method1() {
+	/*
+	 * method1 안에서 try-catch해줬으면 main에서는 별 문제 없음 (try-catch 없어도 작동됨)
+	 * 만약 throws로 넘겼다면 최후의 main에서는 해줘야함
+	 */
+	
+	private static void method1() /*throws Exception*/ {
 		
-		try {
+		try { 
 			method2();
 		} catch (Exception e) {
-			System.out.println(e.getMessage());
+			System.err.println("예외가 발생했습니다");
+			System.err.println(e.getMessage());
 		}
 		
 	}

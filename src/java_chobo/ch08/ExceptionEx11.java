@@ -47,11 +47,13 @@ public class ExceptionEx11 {
 		} catch (Exception e) { // 가장 큰 범위의 class (가장 부모임 그래서 가장 나중에 와야함)
 			System.err.println("Exception이 발생했습니다.");
 			e.printStackTrace();
+			// 비정상 종료와 같은 문장이 콘솔창에 뜨지만 비정상 종료가 아님
+			// >> 왜냐하면 catch문 안에 있기 때문에 정상종료가 됨 (예외처리를 통해 그 다음 것을 계속 수행할 수 있음)
 		} finally { // finally는 반드시 수행됨(catch에 걸리든 안 걸리든)
 			System.out.println("finally");
 		}
 		
-		System.out.println(5);
+		System.out.println(5); // 5까지 찍히면 정상종료 성공한 것
 		
 		/*
 		 * 물컵에 물을 떠야하는데 누군가 불러서 행동을 멈췄다.
