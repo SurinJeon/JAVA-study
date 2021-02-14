@@ -12,14 +12,22 @@ public class ExceptionEx13 {
 			e.printStackTrace();
 			System.err.println(e.getMessage());
 		}
+		
+		// 아래 문장 뜨면 정상종료된 것 (마지막문장까지 도달했으므로)
+		System.out.println("정상종료 되었습니다.");
 
 	}
 
 	private static void method01() {
 
 		method2();
-		//method2();
-		method2();
+		method2(); 
+		/*
+		 * 두 개가 있어도 한 번 예외 잡히면 바로 올라감
+		 * method를 타고 여러개 있어도 일단 감지하기만하면
+		 * catch가 바로 잡아서 들어올림
+		 * >> 그래서 두번째 method2는 시행되기도 전에 잡힘
+		 */
 
 	}
 
