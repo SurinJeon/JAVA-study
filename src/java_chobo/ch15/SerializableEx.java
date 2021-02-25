@@ -28,8 +28,8 @@ public class SerializableEx {
 			list.add(u2);
 			
 			// 출력하는 과저
-			oos.writeObject(u1);
-			oos.writeObject(u2);
+//			oos.writeObject(u1);
+//			oos.writeObject(u2);
 			oos.writeObject(list);
 			
 			System.out.println("Done.");

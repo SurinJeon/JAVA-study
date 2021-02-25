@@ -24,12 +24,12 @@ public class DeSerializableEx {
 		
 			// Serializable 했던 순서 그대로 해야함 (당연히!) << 그래야 읽을 수 있음
 			// Object로 받아왔었기 때문에 (ObjectInputStream) UserInfo타입으로 형변환 하는 과정이 필요 
-			UserInfo u1 = (UserInfo) ois.readObject();
-			UserInfo u2 = (UserInfo) ois.readObject();
+//			UserInfo u1 = (UserInfo) ois.readObject();
+//			UserInfo u2 = (UserInfo) ois.readObject();
 			ArrayList<UserInfo> list = (ArrayList<UserInfo>) ois.readObject();
 		
-			System.out.println(u1);
-			System.out.println(u2);
+			System.out.println(list.get(0));
+			System.out.println(list.get(1));
 			System.out.println(list);
 			// >> 제대로 읽어옴!
 			
