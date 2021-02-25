@@ -20,7 +20,7 @@ public class InetAddressEx {
 			System.out.println("toString : " + ip.toString());
 
 			byte[] ipAddr = ip.getAddress();
-			System.out.println("getAddress() : " + Arrays.toString(ipArr));
+			System.out.println("getAddress() : " + Arrays.toString(ipAddr));
 
 			String result = "";
 			for (int i = 0; i < ipAddr.length; i++) {
